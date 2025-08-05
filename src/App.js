@@ -33,3 +33,14 @@ export default function App() {
     </div>
   );
 }
+
+/*
+Script to get URL from step 2:
+
+let s = ""
+for (let i = 0; i < document.getElementsByTagName("b").length; i++) {
+    if (!document.getElementsByTagName("b")[i].className.includes("ref0"))
+        s += document.getElementsByTagName("b")[i].getAttribute("value")
+}
+console.log(s)
+*/
