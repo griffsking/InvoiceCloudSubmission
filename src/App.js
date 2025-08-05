@@ -1,7 +1,6 @@
 import "./styles.css";
 
 export default function App() {
-  let loading = "Loading...";
   fetch(
     "https://wgg522pwivhvi5gqsn675gth3q0otdja.lambda-url.us-east-1.on.aws/7a6561"
   )
